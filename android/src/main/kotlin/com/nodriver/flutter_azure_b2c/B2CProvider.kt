@@ -23,7 +23,6 @@ package com.nodriver.flutter_azure_b2c
 import android.app.Activity
 import android.content.Context
 import android.util.Log
-import com.google.gson.Gson
 import com.microsoft.identity.client.*
 import com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener
 import com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
@@ -34,8 +33,6 @@ import com.microsoft.identity.client.exception.MsalUiRequiredException
 import com.microsoft.identity.common.java.authorities.Authority
 import org.json.JSONObject
 import java.util.*
-
-val json = Gson()
 
 /**
  * Azure AD B2C protocol provider.
